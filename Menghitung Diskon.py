@@ -21,5 +21,6 @@ else:
 jumlah_diskon = total * diskon
 print("----------------------------------------------")
 print("Jumlah diskon yang didapat Rp.", jumlah_diskon)
+print("----------------------------------------------")
 harga_setelah_diskon = total - (total * diskon)
 print("Total Dibayarkan Rp.", harga_setelah_diskon)
