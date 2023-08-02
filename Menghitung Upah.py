@@ -22,11 +22,11 @@ if jam_kerja > 48:
 else:
     lembur = 0
 
-gaji = (upah * jam_kerja) + lembur
+gaji = (upah * 48) + lembur
 print("------------------------")
 print("## SLIP GAJI KARYAWAN ##")
 print("------------------------")
 print("Nama karyawan:", nama)
-print("Upah Pokok Rp.", upah * jam_kerja)
+print("Upah Pokok Rp.", upah * 48)
 print("Upah Lembur Rp.", lembur)
 print("Upah Total Diterima: Rp.", gaji)
